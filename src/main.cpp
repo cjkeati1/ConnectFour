@@ -1,10 +1,4 @@
 #include <iostream>
-#include <set>
-#include <vector>
-#include <queue>
-#include <stack>
-#include <list>
-#include <iomanip>
 #include <unordered_map>
 #include "ConnectFourBoard.h"
 #include "Player.h"
