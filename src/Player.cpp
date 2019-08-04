@@ -18,7 +18,7 @@ bool Player::makeMove(ConnectFourBoard &board) {
         if (isColumnFull) {
             std::cerr << "Column " << column + 1 << " is full. Try again." << std::endl;
         }
-    } while (board.isColumnFull(column));
+    } while (isColumnFull);
 
     PositionOccupant disc = playerNumber == PLAYER_ONE ? BLACK : RED;
     board.insertPiece(disc, column);
