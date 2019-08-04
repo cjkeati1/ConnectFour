@@ -33,11 +33,11 @@ bool ConnectFourBoard::isColumnFull(int column) {
 bool ConnectFourBoard::insertPiece(PositionOccupant disc, int column) {
     int position = column;
 
-    while (((position + COLUMNS) < TOTAL_SPOTS) &&      // Add to position until it reaches
-           board.at(position + COLUMNS) == EMPTY)    // a non-empty spot or the bottom of the board
+    while (((position + COLUMNS) < TOTAL_SPOTS) &&      // Add to position until it reaches the bottom of the board or
+           board.at(position + COLUMNS) == EMPTY)    // a spot that is already occupied
         position += COLUMNS;
 
-    board.at(position) = disc; // Set the value at the position index to the disc
+    board.at(position) = disc; // Set the value at the position index to the disc value
 
     return true;
 }
@@ -78,7 +78,7 @@ bool ConnectFourBoard::outOfRange(int index) {
 }
 
 bool ConnectFourBoard::isBoardFull() {
-    for (int i = 0; i < 7; ++i) {
+    for (int i = 0; i < COLUMNS; ++i) {
         if (!isColumnFull(i)) return false;
     }
     return true;
