@@ -16,7 +16,7 @@ bool Player::makeMove(ConnectFourBoard &board) {
 
         isColumnFull = board.isColumnFull(column);
         if (isColumnFull) {
-            std::cerr << "Column " << column << " is full. Try again." << std::endl;
+            std::cerr << "Column " << column + 1 << " is full. Try again." << std::endl;
         }
     } while (board.isColumnFull(column));
 

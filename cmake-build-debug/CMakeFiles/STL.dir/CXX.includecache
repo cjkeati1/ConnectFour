@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/User/CLionProjects/STL/ConnectFourBoard.h
+C:/Users/User/CLionProjects/STL/src/ConnectFourBoard.h
 array
 -
 map
 -
 
-C:/Users/User/CLionProjects/STL/Player.cpp
+C:/Users/User/CLionProjects/STL/src/Player.cpp
 iostream
 -
 sstream
 -
 Player.h
-C:/Users/User/CLionProjects/STL/Player.h
+C:/Users/User/CLionProjects/STL/src/Player.h
 
-C:/Users/User/CLionProjects/STL/Player.h
+C:/Users/User/CLionProjects/STL/src/Player.h
 ConnectFourBoard.h
-C:/Users/User/CLionProjects/STL/ConnectFourBoard.h
+C:/Users/User/CLionProjects/STL/src/ConnectFourBoard.h
 

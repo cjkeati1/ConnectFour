@@ -38,6 +38,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\CLionProjects\STL\src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -70,7 +75,7 @@
       <workItem from="1564031209127" duration="3521000" />
       <workItem from="1564103701681" duration="76000" />
       <workItem from="1564103857701" duration="36143000" />
-      <workItem from="1564449416472" duration="63880000" />
+      <workItem from="1564449416472" duration="64916000" />
     </task>
     <servers />
   </component>
@@ -92,7 +97,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ConnectFourBoard.cpp</url>
+          <url>file://$PROJECT_DIR$/src/ConnectFourBoard.cpp</url>
           <line>72</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>

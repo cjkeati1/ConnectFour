@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/CLionProjects/STL/ConnectFourBoard.cpp" "C:/Users/User/CLionProjects/STL/cmake-build-debug/CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj"
-  "C:/Users/User/CLionProjects/STL/Player.cpp" "C:/Users/User/CLionProjects/STL/cmake-build-debug/CMakeFiles/STL.dir/Player.cpp.obj"
-  "C:/Users/User/CLionProjects/STL/main.cpp" "C:/Users/User/CLionProjects/STL/cmake-build-debug/CMakeFiles/STL.dir/main.cpp.obj"
+  "C:/Users/User/CLionProjects/STL/src/ConnectFourBoard.cpp" "C:/Users/User/CLionProjects/STL/cmake-build-debug/CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj"
+  "C:/Users/User/CLionProjects/STL/src/Player.cpp" "C:/Users/User/CLionProjects/STL/cmake-build-debug/CMakeFiles/STL.dir/src/Player.cpp.obj"
+  "C:/Users/User/CLionProjects/STL/src/main.cpp" "C:/Users/User/CLionProjects/STL/cmake-build-debug/CMakeFiles/STL.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

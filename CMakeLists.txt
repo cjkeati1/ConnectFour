@@ -3,4 +3,4 @@ project(STL)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(STL main.cpp ConnectFourBoard.cpp Player.cpp)
+add_executable(STL src/main.cpp src/ConnectFourBoard.cpp src/Player.cpp)

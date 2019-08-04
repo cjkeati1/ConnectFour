@@ -56,57 +56,57 @@ include CMakeFiles/STL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STL.dir/flags.make
 
-CMakeFiles/STL.dir/main.cpp.obj: CMakeFiles/STL.dir/flags.make
-CMakeFiles/STL.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STL.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\STL.dir\main.cpp.obj -c C:\Users\User\CLionProjects\STL\main.cpp
+CMakeFiles/STL.dir/src/main.cpp.obj: CMakeFiles/STL.dir/flags.make
+CMakeFiles/STL.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STL.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\STL.dir\src\main.cpp.obj -c C:\Users\User\CLionProjects\STL\src\main.cpp
 
-CMakeFiles/STL.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\STL\main.cpp > CMakeFiles\STL.dir\main.cpp.i
+CMakeFiles/STL.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\STL\src\main.cpp > CMakeFiles\STL.dir\src\main.cpp.i
 
-CMakeFiles/STL.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\STL\main.cpp -o CMakeFiles\STL.dir\main.cpp.s
+CMakeFiles/STL.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\STL\src\main.cpp -o CMakeFiles\STL.dir\src\main.cpp.s
 
-CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj: CMakeFiles/STL.dir/flags.make
-CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj: ../ConnectFourBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\STL.dir\ConnectFourBoard.cpp.obj -c C:\Users\User\CLionProjects\STL\ConnectFourBoard.cpp
+CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj: CMakeFiles/STL.dir/flags.make
+CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj: ../src/ConnectFourBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\STL.dir\src\ConnectFourBoard.cpp.obj -c C:\Users\User\CLionProjects\STL\src\ConnectFourBoard.cpp
 
-CMakeFiles/STL.dir/ConnectFourBoard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/ConnectFourBoard.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\STL\ConnectFourBoard.cpp > CMakeFiles\STL.dir\ConnectFourBoard.cpp.i
+CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\STL\src\ConnectFourBoard.cpp > CMakeFiles\STL.dir\src\ConnectFourBoard.cpp.i
 
-CMakeFiles/STL.dir/ConnectFourBoard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/ConnectFourBoard.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\STL\ConnectFourBoard.cpp -o CMakeFiles\STL.dir\ConnectFourBoard.cpp.s
+CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\STL\src\ConnectFourBoard.cpp -o CMakeFiles\STL.dir\src\ConnectFourBoard.cpp.s
 
-CMakeFiles/STL.dir/Player.cpp.obj: CMakeFiles/STL.dir/flags.make
-CMakeFiles/STL.dir/Player.cpp.obj: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/STL.dir/Player.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\STL.dir\Player.cpp.obj -c C:\Users\User\CLionProjects\STL\Player.cpp
+CMakeFiles/STL.dir/src/Player.cpp.obj: CMakeFiles/STL.dir/flags.make
+CMakeFiles/STL.dir/src/Player.cpp.obj: ../src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\STL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/STL.dir/src/Player.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\STL.dir\src\Player.cpp.obj -c C:\Users\User\CLionProjects\STL\src\Player.cpp
 
-CMakeFiles/STL.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/Player.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\STL\Player.cpp > CMakeFiles\STL.dir\Player.cpp.i
+CMakeFiles/STL.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/src/Player.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\STL\src\Player.cpp > CMakeFiles\STL.dir\src\Player.cpp.i
 
-CMakeFiles/STL.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/Player.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\STL\Player.cpp -o CMakeFiles\STL.dir\Player.cpp.s
+CMakeFiles/STL.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/src/Player.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\STL\src\Player.cpp -o CMakeFiles\STL.dir\src\Player.cpp.s
 
 # Object files for target STL
 STL_OBJECTS = \
-"CMakeFiles/STL.dir/main.cpp.obj" \
-"CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj" \
-"CMakeFiles/STL.dir/Player.cpp.obj"
+"CMakeFiles/STL.dir/src/main.cpp.obj" \
+"CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj" \
+"CMakeFiles/STL.dir/src/Player.cpp.obj"
 
 # External object files for target STL
 STL_EXTERNAL_OBJECTS =
 
-STL.exe: CMakeFiles/STL.dir/main.cpp.obj
-STL.exe: CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj
-STL.exe: CMakeFiles/STL.dir/Player.cpp.obj
+STL.exe: CMakeFiles/STL.dir/src/main.cpp.obj
+STL.exe: CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj
+STL.exe: CMakeFiles/STL.dir/src/Player.cpp.obj
 STL.exe: CMakeFiles/STL.dir/build.make
 STL.exe: CMakeFiles/STL.dir/linklibs.rsp
 STL.exe: CMakeFiles/STL.dir/objects1.rsp

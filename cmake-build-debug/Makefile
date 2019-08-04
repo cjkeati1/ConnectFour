@@ -122,86 +122,86 @@ STL/fast:
 	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/build
 .PHONY : STL/fast
 
-ConnectFourBoard.obj: ConnectFourBoard.cpp.obj
+src/ConnectFourBoard.obj: src/ConnectFourBoard.cpp.obj
 
-.PHONY : ConnectFourBoard.obj
-
-# target to build an object file
-ConnectFourBoard.cpp.obj:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj
-.PHONY : ConnectFourBoard.cpp.obj
-
-ConnectFourBoard.i: ConnectFourBoard.cpp.i
-
-.PHONY : ConnectFourBoard.i
-
-# target to preprocess a source file
-ConnectFourBoard.cpp.i:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/ConnectFourBoard.cpp.i
-.PHONY : ConnectFourBoard.cpp.i
-
-ConnectFourBoard.s: ConnectFourBoard.cpp.s
-
-.PHONY : ConnectFourBoard.s
-
-# target to generate assembly for a file
-ConnectFourBoard.cpp.s:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/ConnectFourBoard.cpp.s
-.PHONY : ConnectFourBoard.cpp.s
-
-Player.obj: Player.cpp.obj
-
-.PHONY : Player.obj
+.PHONY : src/ConnectFourBoard.obj
 
 # target to build an object file
-Player.cpp.obj:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/Player.cpp.obj
-.PHONY : Player.cpp.obj
+src/ConnectFourBoard.cpp.obj:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj
+.PHONY : src/ConnectFourBoard.cpp.obj
 
-Player.i: Player.cpp.i
+src/ConnectFourBoard.i: src/ConnectFourBoard.cpp.i
 
-.PHONY : Player.i
+.PHONY : src/ConnectFourBoard.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+src/ConnectFourBoard.cpp.i:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.i
+.PHONY : src/ConnectFourBoard.cpp.i
 
-Player.s: Player.cpp.s
+src/ConnectFourBoard.s: src/ConnectFourBoard.cpp.s
 
-.PHONY : Player.s
+.PHONY : src/ConnectFourBoard.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+src/ConnectFourBoard.cpp.s:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.s
+.PHONY : src/ConnectFourBoard.cpp.s
 
-main.obj: main.cpp.obj
+src/Player.obj: src/Player.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/Player.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/Player.cpp.obj:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/Player.cpp.obj
+.PHONY : src/Player.cpp.obj
 
-main.i: main.cpp.i
+src/Player.i: src/Player.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Player.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Player.cpp.i:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
 
-main.s: main.cpp.s
+src/Player.s: src/Player.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Player.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Player.cpp.s:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -212,15 +212,15 @@ help:
 	@echo ... STL
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ConnectFourBoard.obj
-	@echo ... ConnectFourBoard.i
-	@echo ... ConnectFourBoard.s
-	@echo ... Player.obj
-	@echo ... Player.i
-	@echo ... Player.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/ConnectFourBoard.obj
+	@echo ... src/ConnectFourBoard.i
+	@echo ... src/ConnectFourBoard.s
+	@echo ... src/Player.obj
+	@echo ... src/Player.i
+	@echo ... src/Player.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

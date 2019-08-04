@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STL.dir/main.cpp.obj"
-  "CMakeFiles/STL.dir/ConnectFourBoard.cpp.obj"
-  "CMakeFiles/STL.dir/Player.cpp.obj"
+  "CMakeFiles/STL.dir/src/main.cpp.obj"
+  "CMakeFiles/STL.dir/src/ConnectFourBoard.cpp.obj"
+  "CMakeFiles/STL.dir/src/Player.cpp.obj"
   "STL.pdb"
   "STL.exe"
   "STL.exe.manifest"
