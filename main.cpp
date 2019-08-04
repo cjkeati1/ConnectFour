@@ -13,8 +13,8 @@
 #include "Player.h"
 
 int main() {
-    std::unordered_map<PlayerNumber, std::string> titles{{PLAYER_ONE, "Player One (Black)"},
-                                                         {PLAYER_TWO, "Player Two (Red)"}};
+    std::unordered_map<PlayerNumber, std::string> titles{std::make_pair(PLAYER_ONE, "Player One (Black)"),
+                                                         std::make_pair(PLAYER_TWO, "Player Two (Red)")};
     ConnectFourBoard connectFourBoard;
     GameState gameState;
 

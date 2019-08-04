@@ -63,7 +63,7 @@ bool ConnectFourBoard::checkForWinner(int position, LinesToWin step) {
     // NOTE: We need to do this check since it's a 1D array, or else, for example, you could have a horizontal win
     // when the discs are on different rows, but their indices in the array are next to each other
 
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 3; ++i) { // Check that the next three discs are the same as the current one
         int nextPositionToCheck = position + steps[step]; // Each line direction has its own unique step
         if (outOfRange(nextPositionToCheck) || board.at(position) != board.at(nextPositionToCheck) ||
             board.at(position) == EMPTY)

@@ -20,7 +20,7 @@ bool Player::makeMove(ConnectFourBoard &board) {
         }
     } while (board.isColumnFull(column));
 
-    PositionOccupant disc = getPlayerNumber() == PLAYER_ONE ? BLACK : RED;
+    PositionOccupant disc = playerNumber == PLAYER_ONE ? BLACK : RED;
     board.insertPiece(disc, column);
     return true;
 }
