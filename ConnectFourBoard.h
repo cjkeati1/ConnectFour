@@ -24,19 +24,20 @@ enum LinesToWin {
 };
 
 class ConnectFourBoard {
+public:
+    static const int COLUMNS = 9;
+    static const int ROWS = 4;
+    static const int TOTAL_SPOTS = COLUMNS * ROWS;
+
 private:
-    std::array<PositionOccupant, 42> board{};
+    std::array<PositionOccupant, TOTAL_SPOTS> board{};
     std::map<LinesToWin, int> steps{
-            {VERTICAL,      -7},
+            {VERTICAL,      -COLUMNS},
             {HORIZONTAL,    1},
-            {DIAGONAL_UP,   -6},
-            {DIAGONAL_DOWN, 6},
+            {DIAGONAL_UP,   -(COLUMNS - 1)},
+            {DIAGONAL_DOWN, COLUMNS + 1},
     };
 public:
-    const int COLUMNS = 7;
-    const int ROWS = 6;
-    const int TOTAL_SPOTS = COLUMNS * ROWS;
-
     ConnectFourBoard() {
         for (auto &item : board) {
             item = EMPTY;
@@ -51,14 +52,11 @@ public:
 
     bool checkForWinner(int position, LinesToWin step);
 
-
     GameState checkGameState();
 
     bool isBoardFull();
 
-
-    bool outOfRange(int index);
+    static bool outOfRange(int index);
 };
-
 
 #endif //STL_CONNECTFOURBOARD_H

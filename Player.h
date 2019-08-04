@@ -3,14 +3,17 @@
 
 #include "ConnectFourBoard.h"
 
-enum PlayerNumber{
+enum PlayerNumber {
     PLAYER_ONE,
     PLAYER_TWO
 };
 
 class Player {
-public:
+private:
     PlayerNumber playerNumber;
+
+    const int LOWEST_COLUMN_NUM = 1;
+    const int HIGHEST_COLUMN_NUM = ConnectFourBoard::COLUMNS;
 public:
     explicit Player(PlayerNumber playerNumber);
 
@@ -18,10 +21,9 @@ public:
 
     bool makeMove(ConnectFourBoard &board);
 
+    void switchPlayer();
 
-
-
+    int getValidInput();
 };
-
 
 #endif //STL_PLAYER_H

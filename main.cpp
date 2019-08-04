@@ -8,34 +8,34 @@
 #include <stack>
 #include <list>
 #include <iomanip>
+#include <unordered_map>
 #include "ConnectFourBoard.h"
 #include "Player.h"
 
 int main() {
+    std::unordered_map<PlayerNumber, std::string> titles{{PLAYER_ONE, "Player One (Black)"},
+                                                         {PLAYER_TWO, "Player Two (Red)"}};
     ConnectFourBoard connectFourBoard;
-    std::map<GameState, std::string> gameStateName{{IN_PROGRESS, "In Progress"},
-                                                   {WIN,         "Win"},
-                                                   {DRAW,        "Draw"}};
-    connectFourBoard.display();
+    GameState gameState;
 
-    Player playerOne{PLAYER_ONE};
-    Player playerTwo{PLAYER_TWO};
-
-    playerOne.makeMove(connectFourBoard);
-    playerOne.makeMove(connectFourBoard);
-    playerOne.makeMove(connectFourBoard);
-    playerOne.makeMove(connectFourBoard);
-
+    Player currentPlayer{PLAYER_ONE};
 
     connectFourBoard.display();
+    do {
+        currentPlayer.makeMove(connectFourBoard);
+        connectFourBoard.display();
 
-    GameState gameState = connectFourBoard.checkGameState();
-    std::cout << gameStateName[gameState] << std::endl;
+        gameState = connectFourBoard.checkGameState();
 
+        currentPlayer.switchPlayer();
+    } while (gameState == IN_PROGRESS);
 
-
-
-
+    currentPlayer.switchPlayer(); // Switch back to the player that won
+    if (gameState == WIN) {
+        std::cout << titles[currentPlayer.getPlayerNumber()] << " has won!";
+    } else {
+        std::cout << "It's a draw!";
+    }
 
     return 0;
 }
