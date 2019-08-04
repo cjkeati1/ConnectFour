@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/CLionProjects/STL/ConnectFourBoard.cpp
+iostream
+-
+iomanip
+-
+ConnectFourBoard.h
+C:/Users/User/CLionProjects/STL/ConnectFourBoard.h
+
+C:/Users/User/CLionProjects/STL/ConnectFourBoard.h
+array
+-
+map
+-
+
