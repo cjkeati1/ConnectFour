@@ -57,8 +57,8 @@ GameState ConnectFourBoard::checkGameState() {
 }
 
 bool ConnectFourBoard::checkForWinner(int position, LinesToWin step) {
-    int numOfColumnsUntilLastColumn = (COLUMNS - (position % COLUMNS));
-    if (step != VERTICAL && numOfColumnsUntilLastColumn < 4) return false;
+    int numOfColumnsToTheRight = (COLUMNS - (position % COLUMNS));
+    if (step != VERTICAL && numOfColumnsToTheRight < 4) return false;
     // If there are less than 4 columns to the right, then it is impossible to get anything but a vertical win
     // NOTE: We need to do this check since it's a 1D array, or else, for example, you could have a horizontal win
     // when the discs are on different rows, but their indices in the array are next to each other

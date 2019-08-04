@@ -25,8 +25,8 @@ enum LinesToWin {
 
 class ConnectFourBoard {
 public:
-    static const int COLUMNS = 9;
-    static const int ROWS = 4;
+    static const int COLUMNS = 7;
+    static const int ROWS = 6;
     static const int TOTAL_SPOTS = COLUMNS * ROWS;
 
 private:
